@@ -109,7 +109,7 @@
 #endif
 
 // Environment Variable information
-#define VK_ICD_FILENAMES_ENV_VAR "VK_ICD_FILENAMES"  // Deprecated in v1.3.207 loader
+#define VK_ICD_FILENAMES_ENV_VAR "_QCOM_VK_ICD_FILENAMES"  // Deprecated in v1.3.207 loader
 #define VK_DRIVER_FILES_ENV_VAR "VK_DRIVER_FILES"
 #define VK_EXPLICIT_LAYER_PATH_ENV_VAR "VK_LAYER_PATH"
 // Support added in v1.3.207 loader

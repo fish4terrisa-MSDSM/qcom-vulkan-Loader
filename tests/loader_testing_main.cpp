@@ -58,7 +58,7 @@ int main(int argc, char** argv) {
 #endif
 
     // make sure the tests don't find these env-vars if they were set on the system
-    EnvVarWrapper vk_icd_filenames_env_var{"VK_ICD_FILENAMES"};
+    EnvVarWrapper vk_icd_filenames_env_var{"_QCOM_VK_ICD_FILENAMES"};
     EnvVarWrapper vk_driver_files_env_var{"VK_DRIVER_FILES"};
     EnvVarWrapper vk_add_driver_files_env_var{"VK_ADD_DRIVER_FILES"};
     EnvVarWrapper vk_layer_path_env_var{"VK_LAYER_PATH"};
